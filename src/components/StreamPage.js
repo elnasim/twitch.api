@@ -40,7 +40,7 @@ class StreamPage extends Component {
 
   render() {
 
-    const src = 'http://player.twitch.tv/?channel=' + this.state.user_name;
+    const src = '//player.twitch.tv/?channel=' + this.state.user_name;
 
     return (
       <div>

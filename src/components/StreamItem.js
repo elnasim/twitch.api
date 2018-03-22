@@ -12,7 +12,6 @@ class StreamItem extends Component {
         <div className="stream-item">
           <Link to={this.props['user_id']}><img src={img} className="stream-item__img" alt='img'/></Link>
           <div className="stream-item__title">{this.props.title}</div>
-          <div className="stream-item__views">{this.props['user_id']}</div>
           <div className="stream-item__views">{this.props.viewers}</div>
         </div>
       </div>
